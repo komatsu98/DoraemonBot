@@ -4,123 +4,70 @@
 ## Commands
 
 ### Battle game
-*Claim your characters, find weapons, collect gadgets, upgrade your equipments and fight with other users*
+Claim characters, find weapons, collect gadgets, buy gems, upgrade your equipments and fight with bosses and other users
 
-`character`: Claim, search, reroll, upgrade and check your characters
-
-`gadget`: Search, sell, combine, equip, upgrade and check your gadgets
-
-`weapon`: Search, auction, unify, equip, upgrade and check your weapons
-
-`gem`: Search, sell and check your gems
-
-`fight`: fight random
-
-`fight rank`: fight rank with other users and get points
-
-`item`: check your inventory
-
-`shop`: items on selling
+`character` | `weapon` | `gadget` | `gem` | `dorayaki` | `team` | `fight` | `shop` | `buy` | `item` | `me` | `sell` | `market` | `trade` | `up` | `use` | `work` | `marry` | `divorce`
 
 ### Gambles
+Play gamble games with bot and other users (PvP)
 
-`xocdia` - Coinflip Vietnamese version with extended mode
-
-`lieng` - Three-card game (liêng) with Vietnamese rules and extended mode (liêng tố) (multiplayer, PvP)
-
-`xidach` - Blackjack game with Vietnamese rules (multiplayer, PvP)
-
-`baucua` - Game Lắc Bầu Cua (multiplayer)
-
-`lotto` - Lotto game with power ball rules (multiplayer, PvP)
-
-`gtn` - Guess the number (multiplayer, PvP)
-
-`ludo` - Ludo game (multiplayer, PvP)
+`slot` (2 modes) | `baucua` | `blackjack` (PvP, 2 modes) | `coinflip` (2 modes) | `gtn` | `threecard` (PvP, 2 modes) | `lotto` | `ludo`
 
 ### Economy
+Doreamon's catnip currency system used for gamble games.
 
-`catnip` is Doreamon's currency and used for all the bot's games. Type `catnip` to check your balance.
+`give` | `high` | `lixi` | `nip` | `task` | `transfer`
 
-*Catnip can be earned by `daily`, `vote`, `premium`, playing games with bot or other users,...*
+### Guild
 
-`give` - give catnip
+#### Feature Channels
+Make your channels become more powerful and interesting
 
-`lixi` - giveaway catnip and take from others
+Command `channel` with subcommands:
 
-`leaderboard` - global leaderboard
++ `confession` - setup channel with a key, members will DM bot to confess. Everything is anynomous!
++ `confessionpending` - pending confessions go here
++ `counting` | `onewordstory` | `twowordstory` | `wordwordchain` | `charwordchain`
++ `info` | `reset`
++ `voicechannelcreator` - Creator for temp voice channels
 
-`task` - check your task (daily, long term, premium, giveaway tasks)
+#### Temp Voice Channels
+Let members customize their voice "room".
+
+Command `voice` with subcommands: 
+
++ `name` | `lock` | `unlock` | `limit` | `deny` | `allow` | `transfer` | `claim` | `info` | `reset` | `hide` | `show` | `softhide` | `softshow` | `block` | `unblock`
+
+#### Giveaways
+Create, add requirements, end, reroll, show list giveaways. With task types: 
+
++ `send messages | has role | join server (time) | stay in voice channels | mention users | be mentioned`
+
+Command `giveaway` 
+
+#### Level
+Chat xp, leveling, rank, role rewards custom for your server
+
+Command `level`
+
+### GIFs
+Cute emote actions
+
+`awoo` | `bang` | `blush` | `clagwimoth` | `cry` | `cuddle` | `dance` | `hug` | `kiss` | `lick` | `nom` | `pat` | `pout` | `punch` | `slap` | `smile` | `smug` | `stare`
 
 ### Media
-*Random image with keyword*
+Random image with keyword. All shared by our members
 
-`meo` - cat picture
+`meo` | `xinh` | `zai` | `meme` | `food` | `sexy`
 
-`xinh`- pretty girls
-
-`zai` - handsome boys
-
-`meme` - memes
-
-`food` - food
-
-`sexy` - sexy girls (*only works for nsfw channels*)
-
-### Temp Voice Channels
-*Set current voice channel as auto creator voice channel*
-
-`vcc` or `voicechannelcreator` -  make a *join to create* channel for auto temps voice channels
-
-`vc` or `voicechannel` - auto temps voice channels
-
-Subcommands: `name`, `lock`, `unlock`, `limit`, `deny`, `allow`, `transfer`, `claim`, `info`, `reset`, `hide`, `show`, `softhide`, `softshow`, `block`, `unblock`
-
-### Confessions
-*Setup your channel, member will DM bot to confess, approve it and let the confession go to confession channel and reply it whenever you want.
-Everything is anynomous*
-
-`cfs` or `confession` - send anonymous messages to channel with (or without) pending mode, reply
-
-`cfsp` or `confessionpending` - confession-pending channel
-
-
-### Other Featured Channels
-
-`cnt` or `count` - make counting channel
-
-`cwc` or `charwordchain` - words chain with character connector (e.g *... - today - you - upvote - ...*) 
-
-`wwc` or `wordwordchain` - words chain with word connector (e.g *... - xinh dep - dep gai - gai xinh - ...*)
-
-`ows` or `onewordstory` - only one-word message accepted
-
-`tws` or `twowordstory` - only two-ord message accepted
-
-`cdc` or `cooldownchannel` - all cooldown (i.e every message from everyone will trigger this cooldown, not just for each user like default discord channel cooldown) 
-
-
-`i` or `info` - show channel info (featured or not)
-`rs` or `reset` - reset channel to default
-
-### Fun
-
-`language` - set language
+### Fun & Others
+Fun things
 
 `speak` - text to speech
 
-`say` - send messages to channels
+`say` - send messages to any channel
 
-`level` - levels, rank, role rewards
-
-`giveaway` - create, reroll giveaway, giveaway with requirements (send messages, mention, has role, join server from,...)
-
-`link` - useful links
-
-`premium` - check your account and server's premium status
-
-
-### Helps
+`feedback` | `info` | `link` | `ping` | `premium` | `stat`
 
 `help` - list of commands
 
