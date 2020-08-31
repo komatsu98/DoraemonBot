@@ -2,23 +2,90 @@
 
 
 ## Commands
+Some commands have its subcommands, if so the syntax will be: `cat [command] [subcommand] [arguments]`
 
 ### Battle game
 Claim characters, find weapons, collect gadgets, buy gems, upgrade your equipments and fight with bosses and other users
 
-`character` | `weapon` | `gadget` | `gem` | `dorayaki` | `team` | `fight` | `shop` | `buy` | `item` | `me` | `sell` | `market` | `trade` | `up` | `use` | `work` | `marry` | `divorce`
+`me` Check your equipments. You can equip 1 character, 1 weapon and up to 3 gadgets
+
+`character` Claim, search, equip, rename, reroll and check your characters
+
+`weapon` Claim, search, equip and check your weapons
+
+`gadget` Search, combine, equip and check your gadgets
+
+`gem` Search, combine and check your gems
+
+`team` Lead your team and go team fight together
+
+`fight` Fight, fight solo rank, fight duo rank, fight with bosses and get rewards
+
+`dorayaki` Battle currency. Earned by command work and selling things in Battle. Can be transfered to catnip for gambling
+
+`shop` Battle shop
+
+`buy` Buy items in shop by dorayaki
+
+`item` Check your items
+
+`sell` Sell character, weapon, gadget, gem and get dorayaki
+
+`market` Global user-to-user market
+
+`trade` Trade with other users
+
+`up` Upgrade character, weapon, gadget by gem. Especially, you can upgrade weapon strength level by gem houtu and .. your luck
+
+`use` Use items in inventory
+
+`work` Farm dorayaki, gadget, gem
+
+`marry` Marry and fight together, collect love point and earn bonus rewards
+
+`divorce` Divorce
 
 ### Gambles
-Play gamble games with bot and other users (PvP)
+Play gamble games with bot and other users (PvP) using catnip
 
-`slot` (2 modes) | `baucua` | `blackjack` (PvP, 2 modes) | `coinflip` (2 modes) | `gtn` | `threecard` (PvP, 2 modes) | `lotto` | `ludo`
+`slot` Slot machine
+
+`baucua` A traditional gamble: Baucua 
+
+`blackjack` Play blackjack with your friends
+
+`coinflip` Classic and Extended coinflip
+
+`gtn` Guess the number with random hints spawned randomly
+
+`threecard` Play threecard with your friends
+
+`lotto` Buy tickets and win jackpot
+
+`ludo` Play ludo with your friends
 
 ### Economy
 Doreamon's catnip currency system used for gamble games.
 
-`give` | `high` | `lixi` | `nip` | `task` | `transfer`
+`give` Give catnip to other user
+
+`daily` Get daily reward every 12 hours
+
+`lixi` Give and take catnip randomly
+
+`nip` Check your balance
+
+`task` Finish assigned tasks and get rewards or custom your task to setup Conditional Giveaways 
+
+`transfer` Exchange catnip and dorayaki
 
 ### Guild
+
+#### Language & Prefix
+`language` Setup bot language for text-to-speech command (`speak`) and bot response (if language supported)
+
+`prefix` Custom bot prefix
+
 
 #### Feature Channels
 Make your channels become more powerful and interesting
@@ -27,8 +94,13 @@ Command `channel` with subcommands:
 
 + `confession` - setup channel with a key, members will DM bot to confess. Everything is anynomous!
 + `confessionpending` - pending confessions go here
-+ `counting` | `onewordstory` | `twowordstory` | `wordwordchain` | `charwordchain`
-+ `info` | `reset`
++ `counting` - setup counting channel
++ `onewordstory` - setup one-word channel
++ `twowordstory` - setup two-word channel
++ `wordwordchain` - setup word-wordchain channel. eg: loi chao - chao hoi - hoi han...
++ `charwordchain` - setup character-wordchain channel. eg: hello - object - tea...
++ `info` - check channel info
++ `reset` - reset channel to default
 + `voicechannelcreator` - Creator for temp voice channels
 
 #### Temp Voice Channels
